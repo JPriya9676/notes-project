@@ -24,10 +24,8 @@ Built to practice **JavaScript, DOM manipulation, and local storage**.
 ---
 
 ## 🔹 Live Demo
-Live at:
+Live at: https://jyothsna-priya9676.github.io/notes-project/
+
 ---
 
-## 🔹 How to Run Locally
-1. Clone the repository:
-```bash
-git clone https://github.com/Jyothsna-Priya9676/notes-project.git
+
