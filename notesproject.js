@@ -1,16 +1,9 @@
-// Select elements
 const addNoteBtn = document.getElementById('addNoteBtn');
 const notesContainer = document.getElementById('notesContainer');
-
-// Load notes from localStorage
 let notes = JSON.parse(localStorage.getItem('notes')) || [];
-
-// Function to save notes
 function saveNotes() {
     localStorage.setItem('notes', JSON.stringify(notes));
 }
-
-// Function to render notes
 function renderNotes() {
     notesContainer.innerHTML = '';
     notes.forEach((note, index) => {
@@ -41,7 +34,6 @@ function renderNotes() {
     });
 }
 
-// Add new note
 addNoteBtn.addEventListener('click', () => {
     notes.push('New Note');
     saveNotes();
